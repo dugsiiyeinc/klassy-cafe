@@ -42,3 +42,77 @@
     display: flex;
 
 }
+
+.chefs-item .chef-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.chef-thumb img {
+  width: 100%;
+  display: block;
+}
+
+.chef-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(42, 42, 42, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.chef-item:hover .chef-overlay {
+  opacity: 1;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.social-icons li a:hover {
+  background-color: #fb5849;
+  color: #fff;
+}
+
+.chefs-item .chef-item{
+    padding: 5px ;
+    border: 1px solid #2a2a2a34;
+    margin-inline: 15px;
+}
+.chefs-item .chef-item:hover{
+    border-color: #fb5849;
+}
+.chefs-item .chef-item .chef-item-info{
+    padding-block: 20px; 
+    color: #2a2a2a;
+}
+.chef-item .chef-item-info h4{
+    font-size: 20px;
+}
+.chef-item .chef-item-info h4:hover{
+    color: #fb5849;
+}
+.chef-item .chef-item-info span{
+    font-size: 14px;
+}
+
+
+

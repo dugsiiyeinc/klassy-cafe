@@ -127,3 +127,19 @@
   resize: none;
   height: 150px;
 }
+
+.contact-right button {
+  background-color: #fb5849;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.contact-right button:hover {
+  background-color: #e04b3d;
+}
+

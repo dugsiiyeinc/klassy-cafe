@@ -1,16 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-    }
-    .container{
-        width: min(90%, 1200px);
-        margin-inline: auto;
-    }
-    .contact-us{
-        margin-top: 120px ;
-        padding-block: 120px;
-        background: url("../images/reservation-bg.jpg") no-repeat center/cover;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+.contact-us {
+  margin-top: 120px;
+  padding-block: 120px;
+  background: url("../images/reservation-bg.jpg") no-repeat center/cover;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-left,
+.contact-right {
+  flex: 1;
+  padding: 0 15px;
+}
+.contact-left h6 {
+  position: relative;
+  padding-left: 40px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contact-left h6::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+.contact-left h2 {
+  width: 450px;
+  color: #fff;
+  font-size: 30px;
+  margin-block: 20px 25px;
+}
+.contact-left p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 65px;
+}
+.contact-left-mess {
+  display: flex;
+  align-items: center;
+}
+.contact-left-mess .message {
+  background-color: #fff;
+  margin-inline: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 255px;
+  height: 160px;
+}
+.message .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fb5849;
+  margin: auto;
+  margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+}
+.message h4 {
+  font-size: 20px;
+  margin-block: 15px 10px;
+  color: #212529;
+}
+.message a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: 14px;
+}

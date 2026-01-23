@@ -27,6 +27,7 @@
     font-family: "Poppins", sans-serif;
 }
 .chef-info h6{
+    font-weight: 500;
     color: #fb5849;
     font-size: 15px;
     text-transform: uppercase;

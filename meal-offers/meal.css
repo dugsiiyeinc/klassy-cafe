@@ -33,3 +33,23 @@
   font-size: 30px;
   font-weight: 900;
 }
+.meal-icons {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+.meal-icons .icon-box {
+  margin: 0 15px;
+}
+.icon-box img {
+  margin-bottom: 15px;
+}
+.icon-box a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: 600;
+  font-size: 14px;
+}
+.icon-box a:hover {
+  color: #fb5849;
+}

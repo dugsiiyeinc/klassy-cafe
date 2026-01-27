@@ -561,3 +561,8 @@ z-index: 11111;
 
 
 }
+
+    @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* Kala badh tirada kaararka */
+        }

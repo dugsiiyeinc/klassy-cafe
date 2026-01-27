@@ -97,3 +97,6 @@ align-items: center;
   display: none;
   padding: 10px 0;
 }
+.dropdown-menu li {
+  list-style: none;
+}

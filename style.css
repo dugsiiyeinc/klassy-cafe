@@ -36,3 +36,6 @@ eader{
     gap: 15rem;
     padding: 2rem;
 }
+.mobile-menu{
+    display: none;
+}

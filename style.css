@@ -113,3 +113,14 @@ align-items: center;
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+@media  (min-width:480px) and  (max-width:1030px ){
+
+                .mobile-menu{
+                    display: none;
+                }
+                .hamburger{
+                    display: none;
+                }
+
+
+            }

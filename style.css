@@ -316,6 +316,66 @@ desketop-menu a{
         
 
      }
+     /* NAVBAR */
+.navbar {
+  padding: 20px 40px;
+  background: #fff;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #d24b4b;
+  font-weight: 500;}
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  width: 200px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  display: none;
+  padding: 10px 0;
+}
+.dropdown-menu li {
+  list-style: none;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #080000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.dropdown-menu a:hover {
+  background: #f5f5f5;
+  color: #d24b4b;
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-menu {
+  display: block;}
+            .row{
+    display: flex;
+    flex-direction: column;}
+                .left-contect{
+    width: 99vw;
+    height: 30vh;
+    background-image: url('https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/top-left-bg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: absolute; */
+}
 
 
     }

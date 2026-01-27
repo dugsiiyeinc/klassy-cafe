@@ -303,5 +303,19 @@ desketop-menu a{
         
         
          }
+          .mobile-menu h1 {
+        font-size: 2.3125rem;
+        font-weight: 700;
+        border-bottom: 1px solid rgb(75, 11, 248);
+             padding: 10px;
+     }
+
+     .mobile-menu a {
+        color: rgb(250, 247, 247) !important;
+          border-bottom: 1px solid rgb(75, 11, 248);
+        
+
+     }
+
 
     }

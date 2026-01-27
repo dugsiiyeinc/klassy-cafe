@@ -283,5 +283,25 @@ desketop-menu a{
      .hamburger i[data-visible="false"]{
             display: none;
      }
+      .mobile-menu .navigation {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 100%;
+          border-bottom: 1px solid rgb(75, 11, 248);
+      
+     }
+
+     .mobile-menu .navigation .menus-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+         }
 
     }

@@ -548,3 +548,16 @@ z-index: 11111;
              justify-content: flex-start;
              height: 80vh;
         }
+        @keyframes walk {
+  /* socod */
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-10%); }
+   /* hakad */
+  25%  { transform: translateX(-10%); }
+
+  /* socod kale */
+  45%  { transform: translateX(-25%); }
+
+
+
+}

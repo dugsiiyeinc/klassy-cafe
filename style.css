@@ -532,3 +532,19 @@ z-index: 11111;
             height: 100%;
             object-fit: cover;
         }
+        .slider-containers {
+            /* width: 10%; */
+            overflow: hidden;
+            background: white;
+            /* padding: 20px 0; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+             width: 64vw;
+             /* background-color: blue; */
+             /* margin-top: 3rem; */
+             
+             background-color: #fffafa;
+             display: flex;
+             gap: 0;
+             justify-content: flex-start;
+             height: 80vh;
+        }

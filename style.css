@@ -144,5 +144,15 @@ align-items: center;
 .mobile-menu{
     display: none;
 }
+.desketop-menu{
+    height: 100%;
+display: flex;
+align-items: center;
+   
+}
+.desketop-menu li{
+    list-style: none;
+
+}
 
             }

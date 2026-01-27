@@ -172,5 +172,27 @@ desketop-menu a{
     font-size: 2rem;
     
 }
+/* NAVBAR */
+.navbar {
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #d24b4b;
+  font-weight: 500;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
             }

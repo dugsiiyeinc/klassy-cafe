@@ -154,5 +154,23 @@ align-items: center;
     list-style: none;
 
 }
+desketop-menu a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+   color: black;
+   padding: 0.7rem;
+   cursor: pointer;
+
+     
+}
+.desketop-menu a:hover{
+    color: #fd211b;
+}
+.logo{
+
+    font-size: 2rem;
+    
+}
 
             }

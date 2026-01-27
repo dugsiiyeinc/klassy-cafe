@@ -82,3 +82,18 @@ align-items: center;
   color: #d24b4b;
   font-weight: 500;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  width: 200px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  display: none;
+  padding: 10px 0;
+}

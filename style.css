@@ -30,3 +30,9 @@ eader{
      z-index: 11111;
     
 }
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding: 2rem;
+}

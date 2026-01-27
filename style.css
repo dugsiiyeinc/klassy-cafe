@@ -65,3 +65,20 @@ align-items: center;
     
     color: #fd211b;
 }
+.container-fluid{ 
+
+}
+/* NAVBAR */
+.navbar {
+  padding: 20px 40px;
+  background: #fff;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #d24b4b;
+  font-weight: 500;
+}

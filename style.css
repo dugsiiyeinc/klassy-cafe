@@ -459,3 +459,22 @@ align-items: center;
     flex-direction: column;
     /* position: absolute; */
 }
+.title-top{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3rem; */
+    font-size: 1.12rem;
+    margin-top: 0.3rem;
+}
+.btn-left{
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #fd211b;
+    text-align: center;
+}

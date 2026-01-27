@@ -402,5 +402,40 @@ desketop-menu a{
      z-index: 11111;
      padding: 0.5rem;
 }
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding: 0.5rem;
+    
+}
+.logo{
+    
+}
+.desketop-menu{
+    height: 100%;
+display: flex;
+align-items: center;
+ 
+ margin-right: 5px;
+}
+.desketop-menu li{
+    list-style: none;
 
+}
+.desketop-menu a{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+   color: black;
+   padding: 0.3rem;
+   cursor: pointer;
+  
+   
+
+     
+}
+.desketop-menu a:hover{
+    color: #fd211b;
+}
         }

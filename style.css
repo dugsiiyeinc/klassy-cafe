@@ -438,4 +438,9 @@ align-items: center;
 .desketop-menu a:hover{
     color: #fd211b;
 }
+.logo{
+
+    font-size: 2rem;
+    
+}
         }

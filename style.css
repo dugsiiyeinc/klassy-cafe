@@ -566,3 +566,6 @@ z-index: 11111;
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); } /* Kala badh tirada kaararka */
         }
+        @media  (min-width:480px) and  (max-width:1030px ){
+            
+        }

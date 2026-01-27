@@ -257,5 +257,31 @@ desketop-menu a{
         border-radius: 50%;
         font-size: 2rem;
      }
-     
+     .mobile-menu {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        background-color:rgb(13, 13, 13);
+        inset: 0 0 0 0;
+        color: rgb(245, 35, 7);
+        transform: translateX(0%);
+        transition: transform 350ms ease-in-out;
+        height: 50vh;
+        
+        
+        
+        }
+
+       .mobile-menu[data-visible="false"] {
+        transform: translateX(100%);
+         }
+
+        .hamburger i[data-visible="true"]{
+        display: block;
+     }
+
+     .hamburger i[data-visible="false"]{
+            display: none;
+     }
+
     }

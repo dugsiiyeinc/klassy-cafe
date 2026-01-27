@@ -444,3 +444,18 @@ align-items: center;
     
 }
         }
+
+        .row{
+    display: grid;
+       grid-template-columns: repeat(2,1fr);
+}
+.left-contect{
+    width: 35vw;
+    height: 80vh;
+    background-image: url('https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/top-left-bg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: absolute; */
+}

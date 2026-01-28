@@ -15,7 +15,7 @@
 .main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 3rem;
+    gap: 1rem;
 }
 .blog{
     display: flex;
@@ -41,6 +41,7 @@
     
       font-weight: bolder;
       padding-bottom: 1rem;
+      font-weight: bolder;
 }
 .blog p{
     font-size: 1.05rem;
@@ -53,6 +54,7 @@
     padding-bottom: 1rem;
     color: #ff5751;
     text-transform: uppercase;
+    margin-top: 3rem;
 }
 .left-img{
     display: flex;
@@ -64,7 +66,7 @@
 }
 .left-img img{
     width: 95%;
-    height: 80%;
+    height: 85%;
 }
 .youtupe{
     display: flex;
@@ -78,7 +80,7 @@
     border-radius: 50px;
     align-items: center;
     justify-content: center;
-    bottom: 14rem; 
+    bottom: 15rem; 
     color: #fff;
 
 }

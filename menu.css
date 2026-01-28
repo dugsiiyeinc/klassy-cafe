@@ -66,3 +66,11 @@ img{
 .slick-arrows{
     display: block;
 }
+.menu-rest h4{
+             padding: 0 3rem 0 2rem;
+             color: #d24b4b;
+             margin-bottom: -3rem;
+             text-transform: uppercase;
+             
+             
+        }

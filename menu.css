@@ -248,5 +248,42 @@ color:blue;
   z-index: 10;
   
   
+}.slider-arrows.rights {
+  left: 50%;
+  bottom: 13%;
+  
+  
 }
+
+.slider-arrows.lefts {
+  right: 50%;
+  bottom: 13%;
+}
+
+.slider-arrows:hover {
+  background: #c0392b;
+}
+.slick-arrows{
+    display: block;
+}
+        .slider-container img{
+            height: 100%;
+            width: 100%;
+        }
+        Weelka weyn ee slider-ka
+        .slider-containers {
+            /* width: 10%; */
+            overflow: hidden;
+            background: white;
+            /* padding: 20px 0; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+             width: 99vw;
+             /* background-color: blue; */
+             margin-top: 3rem;
+             
+             background-color: #fffafa;
+             display: flex;
+             gap: 0;
+             justify-content: flex-start;
+        }
         }

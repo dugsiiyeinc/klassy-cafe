@@ -33,3 +33,15 @@
 .sawiro img{
     height: 100%;
 }
+.title-grid{
+    font-size: 2rem;
+    
+      font-weight: bolder;
+      padding-bottom: 1rem;
+}
+.blog p{
+    font-size: 1.05rem;
+    margin-bottom: -2rem;
+    cursor: #8b8b8b;
+
+}

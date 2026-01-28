@@ -190,3 +190,11 @@ font-size: 1.1rem;
 color: gold;
           
 }
+.overlay p {
+font-size: 0.85rem;
+margin: 0;
+        }
+span{
+margin-top:  1.7rem;
+color:blue;
+        }

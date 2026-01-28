@@ -41,10 +41,7 @@
     
       font-weight: bolder;
       padding-bottom: 1rem;
-      background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-video-bg.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      
       
 }
 .blog p{
@@ -64,6 +61,10 @@
     position: relative;
     
     justify-content: center;
+    background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/about-video-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
  
 }
 

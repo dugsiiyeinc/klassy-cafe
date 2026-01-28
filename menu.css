@@ -50,3 +50,19 @@ img{
   
   
 }
+.slider-arrows.rights {
+  left: 50%;
+  bottom: 0;
+  
+  
+}
+.slider-arrows.lefts {
+  right: 50%;
+  bottom: 0;
+}
+.slider-arrows:hover {
+  background: #c0392b;
+}
+.slick-arrows{
+    display: block;
+}

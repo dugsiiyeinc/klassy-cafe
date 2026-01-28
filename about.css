@@ -58,3 +58,19 @@
     justify-content: center;
  
 }
+.youtupe{
+    display: flex;
+    background-color: red;
+    align-self:self-start;
+    width: 5vw;
+    position:absolute;
+    padding: 1rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    bottom: 14rem; 
+    color: #fff;
+
+}

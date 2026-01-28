@@ -731,6 +731,24 @@ top: 50%;
     margin-top: 1rem;
     color: #fd211b;
     text-align: center;}
-
+ .img-fill{
+    
+            width: 99vw;
+    height: 40vh;
+      display: flex;
+    
+  
+  animation: walk 18s infinite;
+                }
+.cards {
+            position: relative;
+            width: 80vw;
+            height: 60vh;
+            /* margin: 0 10px; */
+            flex-shrink: 0;
+            overflow: hidden;
+            /* border-radius: 10px; */
+             z-index: 11111;
+        }
 }
     

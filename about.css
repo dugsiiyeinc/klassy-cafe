@@ -45,6 +45,12 @@
     cursor: #8b8b8b;
 
 }
+.blog h4{
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    color: #ff5751;
+    text-transform: uppercase;
+}
 .left-img{
     display: flex;
     position: relative;

@@ -45,3 +45,10 @@
     cursor: #8b8b8b;
 
 }
+.left-img{
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+ 
+}

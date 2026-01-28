@@ -14,8 +14,6 @@
 .main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color:#8b8b8b;
-    gap: 2rem;
 }
 .blog{
     display: flex;
@@ -34,15 +32,12 @@
 }
 .sawiro img{
     height: 100%;
-    width: 100%;
 }
 .title-grid{
     font-size: 2rem;
     
       font-weight: bolder;
       padding-bottom: 1rem;
-      
-      
 }
 .blog p{
     font-size: 1.05rem;
@@ -61,10 +56,8 @@
     position: relative;
     
     justify-content: center;
-  
+ 
 }
-
-
 .youtupe{
     display: flex;
     background-color: red;

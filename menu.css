@@ -198,3 +198,8 @@ span{
 margin-top:  1.7rem;
 color:blue;
         }
+         /* Animation-ka socodka */
+@keyframes scroll {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); } /* Kala badh tirada kaararka */
+        }

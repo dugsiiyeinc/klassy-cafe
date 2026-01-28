@@ -88,3 +88,22 @@ margin: 1%;
             font-weight: bolder;
             padding: 2rem;
         }
+        slider-container img{
+height: 100%;
+width: 100%;}  
+        /* Weelka weyn ee slider-ka */
+.slider-container {
+            /* width: 10%; */
+overflow: hidden;
+background: white;
+            /* padding: 20px 0; */
+box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+width: 99vw;
+             /* background-color: blue; */
+margin-top: 3rem;
+             
+background-color: #fffafa;
+display: flex;
+gap: 0;
+justify-content: flex-start;
+        }

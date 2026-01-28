@@ -518,7 +518,7 @@ animation: walk 18s infinite;
                 }
 .cards {
 position: relative;
-width: 64vw;
+width: 65vw;
 height: 80vh;
         /* margin: 0 10px; */
 flex-shrink: 0;

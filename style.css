@@ -809,5 +809,23 @@ top: 50%;
 .slick-arrow{
     display: block;
 }
+@keyframes walk {
+  /* socod */
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-10%); }
+   /* hakad */
+  25%  { transform: translateX(-10%); }
+
+  /* socod kale */
+  45%  { transform: translateX(-25%); }
+
+
+
+}
+
+    @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* Kala badh tirada kaararka */
+        }
 }
     

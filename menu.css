@@ -118,4 +118,21 @@ animation: walk 18s infinite;
   /* socod */
   0%   { transform: translateX(0); }
   20%  { transform: translateX(-10%); }
+  /* hakad */
+  25%  { transform: translateX(-10%); }
+
+  /* socod kale */
+  45%  { transform: translateX(-25%); }
+
+  /* hakad */
+  50%  { transform: translateX(-25%); }
+
+  /* socod */
+  70%  { transform: translateX(-40%); }
+
+  /* hakad */
+  75%  { transform: translateX(-40%); }
+
+  /* dhammaad */
+  100% { transform: translateX(-50%); }
 }

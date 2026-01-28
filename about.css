@@ -51,3 +51,10 @@
     color: #ff5751;
     text-transform: uppercase;
 }
+.left-img{
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+ 
+}

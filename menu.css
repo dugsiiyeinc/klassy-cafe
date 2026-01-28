@@ -136,3 +136,7 @@ animation: walk 18s infinite;
   /* dhammaad */
   100% { transform: translateX(-50%); }
 }
+/* Marka Mouse-ka la dul dhigo, slider-ku wuu istaagayaa */
+.slider-track:hover {
+animation-play-state: paused;}
+        /* Qaabka kaarka */

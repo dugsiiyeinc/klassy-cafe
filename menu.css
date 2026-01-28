@@ -339,7 +339,9 @@ color:blue;
             height: 100%;
             object-fit: cover;
         }
-         .price-tag {
+         
+        
+        .price-tag {
             position: absolute;
             top: 0;
             left: 0;

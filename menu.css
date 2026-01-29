@@ -417,6 +417,12 @@ color:blue;
 
                         
         }
+        .descript{
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            padding: 2rem;
+        }
 
         
                 .slider-arrows {
@@ -441,14 +447,14 @@ color:blue;
 
 .slider-arrows.rights {
   left: 50%;
-  bottom: 13%;
+  bottom: -15%;
   
   
 }
 
 .slider-arrows.lefts {
   right: 50%;
-  bottom: 13%;
+  bottom: -15%;
 }
 
 .slider-arrows:hover {
@@ -520,8 +526,8 @@ color:blue;
         /* Qaabka kaarka */
         .card {
             position: relative;
-            width: 210px;
-            height: 30vh;
+            width: 370px;
+            height: 39vh;
             margin: 0 10px;
             flex-shrink: 0;
             overflow: hidden;
@@ -583,7 +589,7 @@ color:blue;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 15px;
+            padding: 20px;
             box-sizing: border-box;
             transition: bottom 0.4s ease-in-out;
             font-size: 2rem;

@@ -776,5 +776,15 @@ color:blue;
             bottom: 0;
            
         }
+           .overlay h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.1rem;
+            color: gold;
+          
+        }
 
+        .overlay p {
+            font-size: 0.85rem;
+            margin: 0;
+        }
            }

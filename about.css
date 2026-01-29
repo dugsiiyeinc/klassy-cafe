@@ -226,7 +226,7 @@ img{
     margin-top: 3rem;
 }
 .sawiro img{
-    height: 65%;
+    height: 49%;
 }
 .title-grid{
     font-size: 2rem;
@@ -235,7 +235,7 @@ img{
       padding-bottom: 1rem;
 }
 .blog p{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     margin-bottom: -2rem;
     cursor: #8b8b8b;
 
@@ -253,7 +253,7 @@ img{
     
     justify-content: center;
  height: 45%;
- width: 35vw;
+ width: 38vw;
 }
 .youtupe{
     display: flex;

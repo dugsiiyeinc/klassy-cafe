@@ -442,14 +442,14 @@ color:blue;
 
 .slider-arrows.rights {
   left: 50%;
-  bottom: -15%;
+  bottom: -3%;
   
   
 }
 
 .slider-arrows.lefts {
   right: 50%;
-  bottom: -15%;
+  bottom: -3%;
 }
 
 .slider-arrows:hover {

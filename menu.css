@@ -664,5 +664,13 @@ color:blue;
            
             
         }
+        .descript {
+            font-size: 1.7rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            padding: 1rem;
+            color: #000;
+          
+        }
 
            }

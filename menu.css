@@ -689,5 +689,12 @@ color:blue;
              gap: 0;
              justify-content: flex-start;
         }
+         /* Safka kaararka ee soconaya */
+            .slider-track {
+  display: flex;
+  width: max-content;
+  animation: walk 18s infinite;
+  
+}
 
            }

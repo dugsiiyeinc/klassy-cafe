@@ -151,7 +151,7 @@ img{
       padding-bottom: 1rem;
 }
 .blog p{
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     margin-bottom: -2rem;
     cursor: #8b8b8b;
 
@@ -169,7 +169,8 @@ img{
     
     justify-content: center;
  height: 45%;
- width: 35vw;
+ width: 38vw;
+ margin-top: 1rem;
 }
 .youtupe{
     display: flex;

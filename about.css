@@ -277,5 +277,80 @@ img{
 }      
     
 }
+@media (max-width:480px ) {
+    .container-grid{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    
+    width: 97vw;
+    align-items: center;
+    margin-inline:auto;
+}
+.main{
+   display: flex;
+   flex-direction: column;}
+  
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.sawiro{
+    display: flex;
+    height:15vh;
+    padding: 10px;
+    width: 30vw;
+    gap: 30px;
+    margin-top: 3rem;
+}
+.sawiro img{
+    height: 100%;
+}
+.title-grid{
+    font-size: 2rem;
+    
+      font-weight: bolder;
+      padding-bottom: 1rem;
+}
+.blog p{
+    font-size: 1.2rem;
+    margin-bottom: -2rem;
+    cursor: #8b8b8b;
+
+}
+
+.blog h4{
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    color: #ff5751;
+    text-transform: uppercase;
+}
+.left-img{
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+ 
+}
+.youtupe{
+    display: flex;
+    background-color: red;
+    align-self:self-start;
+    width: 5vw;
+    position:absolute;
+    padding: 1rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    bottom: 11rem; 
+    color: #fff;
+
+}
+}
 
  

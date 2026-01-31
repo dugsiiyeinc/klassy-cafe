@@ -19,17 +19,21 @@ img{
     margin-inline: auto;
  }
 
-
+.about-us{
+     width: 989px;
+    height: 522px;
+}
 
 .container-grid{
     display: flex;
     justify-content: center;
     height: 90vh;
     
-    width: 65vw;
+    width: 99vw;
     align-items: center;
     margin-inline:auto;
-    
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .main{
     display: grid;
@@ -39,21 +43,22 @@ img{
 .blog{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 515px;
+   
     padding: 1rem;
    
 }
+
 .sawiro{
-    display: flex;
-    height:20vh;
-    padding: 10px;
-    width: 15vw;
-    gap: 30px;
-    margin-top: 3rem;
+   width: 130px;
+   height: 130px;
+   display: flex;
+   gap: 30px;
 }
 .sawiro img{
     height: 100%;
+    width: 100%;
 }
 .title-grid{
     font-size: 2rem;
@@ -62,17 +67,21 @@ img{
       padding-bottom: 1rem;
       font-weight: bolder;
 }
-p{
-    font-size: 15px;
+.blog p {
+    font-size: 14px !important;
     margin-bottom: -2rem;
-    cursor: #8b8b8b;
-    width: 450px;
-    margin: 0px 0px 25px;
+    cursor: #8b8b8b ;
+    width: 449px;
+    color: #2a2a2a;
+    margin: 0px 0px 25px !important;
     height: 255px;
+    
+    
 
 }
 .blog p a{
     text-decoration: none;
+    color: #0470fd;
 }
 .blog h6{
     font-size: 0.9375rem;

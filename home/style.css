@@ -51,7 +51,7 @@ align-items: center;
 
 }
 .desketop-menu a{
-    font-size: 15px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-decoration: none;
    color: black;
@@ -475,17 +475,23 @@ align-items: center;
     align-items: center;
     justify-content: center;
     /* margin-top: 3rem; */
-    font-size: 1.12rem;
+   
     margin-top: 0.3rem;
 }
 .btn-left{
-    padding: 1rem;
+    padding: 16px 0px 0px;
     border-radius: 0.3rem;
     border: none;
     font-size: 1rem;
     margin-top: 1rem;
     color: #fd211b;
     text-align: center;
+}
+.btn-left a{
+  text-decoration: none;
+  font-size: 13px;
+  padding: 12px 25px;
+  color: #fb5849;;
 }
 .slider-arrow {
   position: absolute;

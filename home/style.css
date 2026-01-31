@@ -113,6 +113,10 @@ align-items: center;
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.title-top{
+  font-size: 3.375rem;
+  
+}
 .title-six{
   font-size: 1rem;
   margin: 5px 0px 0px;

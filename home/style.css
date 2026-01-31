@@ -113,6 +113,11 @@ align-items: center;
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.title-six{
+  font-size: 1rem;
+  margin: 5px 0px 0px;
+  color: #fff;
+}
 @media  (min-width:480px) and  (max-width:1030px ){
 
                 .mobile-menu{

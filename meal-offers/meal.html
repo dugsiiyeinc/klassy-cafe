@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meal-offers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="meal-offer.css">
-  
+    <link rel="stylesheet" href="meal.css">
+
 </head>
+
 <body>
     <section class="meal-offers">
         <div class="container meal-container">
@@ -16,75 +18,198 @@
                 <h2>This Week’s Special Meal Offers</h2>
             </div>
             <div class="meal-icons">
-                <div class="icon-box">
+                <div class="icon-box  active" data-tab="breakfast">
                     <img src="../images/tab-icon-01.png" alt=""><br>
                     <a href="#">Breakfast</a>
                 </div>
-                <div class="icon-box">
+                <div class="icon-box" data-tab="lunch">
                     <img src="../images/tab-icon-02.png" alt=""><br>
                     <a href="#">Lunch</a>
                 </div>
-                <div class="icon-box">
+                <div class="icon-box" data-tab="dinner">
                     <img src="../images/tab-icon-03.png" alt=""><br>
                     <a href="#">Dinner</a>
                 </div>
             </div>
             <div class="meal-content">
-                <div class="meal-left-content">
-                    <div class="meal-box">
-                        <img src="../images/tab-item-01.png" alt="">
-                        <div class="box-info">
-                            <h4>Fresh Chicken Salad</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$10.50</h6>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-01.png" alt="">
+                    <div class="box-info">
+                        <h4>Fresh Chicken Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                     </div>
-                    <div class="meal-box">
-                        <img src="../images/tab-item-02.png" alt="">
-                        <div class="box-info">
-                            <h4>Orange Juice</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$3.50</h6>
-                    </div>
-                    <div class="meal-box">
-                        <img src="../images/tab-item-03.png" alt="">
-                        <div class="box-info">
-                            <h4>Fruit Salad</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$8.99</h6>
-                    </div>
+                    <h6 class="price">$10.50</h6>
                 </div>
-                <div class="meal-right-content">
-                    <div class="meal-box">
-                        <img src="../images/tab-item-04.png" alt="">
-                        <div class="box-info">
-                            <h4>Eggs Omelette</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$6.50</h6>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-02.png" alt="">
+                    <div class="box-info">
+                        <h4>Orange Juice</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                     </div>
-                    <div class="meal-box">
-                        <img src="../images/tab-item-05.png" alt="">
-                        <div class="box-info">
-                            <h4>Dollma Pire</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$5.00</h6>
+                    <h6 class="price">$3.50</h6>
+                </div>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-03.png" alt="">
+                    <div class="box-info">
+                        <h4>Fruit Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                     </div>
-                    <div class="meal-box">
-                        <img src="../images/tab-item-06.png" alt="">
-                        <div class="box-info">
-                            <h4>Omelette & Cheese</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                        </div>
-                        <h6 class="price">$4.10</h6>
+                    <h6 class="price">$8.99</h6>
+                </div>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-04.png" alt="">
+                    <div class="box-info">
+                        <h4>Eggs Omelette</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                     </div>
+                    <h6 class="price">$6.50</h6>
+                </div>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-05.png" alt="">
+                    <div class="box-info">
+                        <h4>Dollma Pire</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$5.00</h6>
+                </div>
+                <div class="meal-box" data-meal="breakfast">
+                    <img src="../images/tab-item-06.png" alt="">
+                    <div class="box-info">
+                        <h4>Omelette & Cheese</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$4.10</h6>
+                </div>
+                <!-- lunch offers -->
+                 <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-03.png" alt="">
+                    <div class="box-info">
+                        <h4>Fruit Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$12.99</h6>
+                </div>
+                <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-06.png" alt="">
+                    <div class="box-info">
+                        <h4>Omelette & Cheese</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$14.10</h6>
+                </div>
+                <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-02.png" alt="">
+                    <div class="box-info">
+                        <h4>Orange Juice</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$3.50</h6>
+                </div>
+                <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-05.png" alt="">
+                    <div class="box-info">
+                        <h4>Dollma Pire</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$15.00</h6>
+                </div>
+                <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-01.png" alt="">
+                    <div class="box-info">
+                        <h4>Fresh Chicken Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$20.50</h6>
+                </div>
+                <div class="meal-box" data-meal="lunch">
+                    <img src="../images/tab-item-04.png" alt="">
+                    <div class="box-info">
+                        <h4>Eggs Omelette</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$6.50</h6>
+                </div>
+                <!-- dinner -->
+                <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-06.png" alt="">
+                    <div class="box-info">
+                        <h4>Omelette & Cheese</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$4.10</h6>
+                </div>
+                <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-04.png" alt="">
+                    <div class="box-info">
+                        <h4>Eggs Omelette</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$6.50</h6>
+                </div>
+                <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-05.png" alt="">
+                    <div class="box-info">
+                        <h4>Dollma Pire</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$5.00</h6>
+                </div>
+                 <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-01.png" alt="">
+                    <div class="box-info">
+                        <h4>Fresh Chicken Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$10.50</h6>
+                </div>
+                <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-02.png" alt="">
+                    <div class="box-info">
+                        <h4>Orange Juice</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$3.50</h6>
+                </div>
+                <div class="meal-box" data-meal="dinner">
+                    <img src="../images/tab-item-03.png" alt="">
+                    <div class="box-info">
+                        <h4>Fruit Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                    </div>
+                    <h6 class="price">$8.99</h6>
                 </div>
             </div>
         </div>
 
     </section>
+    <script>
+        const icons = document.querySelectorAll(".icon-box");
+        const meals = document.querySelectorAll(".meal-box");
+
+        // default breakfast
+        meals.forEach(meal => {
+            if (meal.dataset.meal === "breakfast") {
+                meal.classList.add("show");
+            }
+        });
+
+        icons.forEach(icon => {
+            icon.addEventListener("click", () => {
+                icons.forEach(i => i.classList.remove("active"));
+                icon.classList.add("active");
+
+                const tab = icon.dataset.tab;
+
+                meals.forEach(meal => {
+                    meal.classList.remove("show");
+                    if (meal.dataset.meal === tab) {
+                        meal.classList.add("show");
+                    }
+                });
+            });
+        });
+
+    </script>
 </body>
+
 </html>

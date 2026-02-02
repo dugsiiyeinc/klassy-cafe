@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+.contact-us {
+  margin-top: 120px;
+  padding-block: 120px;
+  background: url("../images/reservation-bg.jpg") no-repeat center/cover;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-left,
+.contact-right {
+  flex: 1;
+  padding: 0 15px;
+}
+.contact-left h6 {
+  position: relative;
+  padding-left: 40px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contact-left h6::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+.contact-left h2 {
+  width: 450px;
+  color: #fff;
+  font-size: 30px;
+  margin-block: 20px 25px;
+}
+.contact-left p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 65px;
+}
+.contact-left-mess {
+  display: flex;
+  align-items: center;
+}
+.contact-left-mess .message {
+  background-color: #fff;
+  margin-inline: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 255px;
+  height: 160px;
+}
+.message .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fb5849;
+  margin: auto;
+  margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+}
+.message h4 {
+  font-size: 20px;
+  margin-block: 15px 10px;
+  color: #212529;
+}
+.message a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: 14px;
+}
+.contact-right {
+  background-color: #ffffff;
+  padding: 45px 30px;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+.contact-right h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #2a2a2a;
+  text-align: center;
+  padding-inline: 15px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right form > div {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-right input,
+.contact-right select,
+.contact-right textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact-right textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-right button {
+  background-color: #fb5849;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.contact-right button:hover {
+  background-color: #e04b3d;
+}
+
+@media (max-width: 768px) {
+  .contact-us{
+        width: 100%;
+     }
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+        /* width: 100%; */
+    }
+    .contact-left{
+        padding-inline: 0;
+    }
+    .contact-left h2 {
+        width: 100%;
+    }
+
+    .contact-left-mess {
+        flex-direction: column;
+        gap: 40px;
+    }
+ .contact-left-mess .message{
+        margin-inline: 0;
+        width: 100%;
+        margin-bottom: 30px;
+ }
+ 
+    .contact-right{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact-right form > div {
+        flex-direction: column;
+    }
+  }

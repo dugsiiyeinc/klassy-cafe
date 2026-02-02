@@ -144,33 +144,37 @@
 }
 
 @media (max-width: 768px) {
-  .contact-section {
-    flex-direction: column;
-    gap: 40px;
-  }
+  .contact-us{
+        width: 100%;
+     }
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+        /* width: 100%; */
+    }
+    .contact-left{
+        padding-inline: 0;
+    }
+    .contact-left h2 {
+        width: 100%;
+    }
 
-  .contact-left h2 {
-    width: 100%;
-  }
+    .contact-left-mess {
+        flex-direction: column;
+        gap: 40px;
+    }
+ .contact-left-mess .message{
+        margin-inline: 0;
+        width: 100%;
+        margin-bottom: 30px;
+ }
+ 
+    .contact-right{
+        margin-left: 0;
+        width: 100%;
+    }
 
-  .contact-left-mess {
-    flex-direction: column;
-    gap: 40px;
+    .contact-right form > div {
+        flex-direction: column;
+    }
   }
-  .contact-left-mess .message,
-  .contact-right {
-    width: 100%;
-  }
-  .contact-right {
-    margin-left: 0;
-  }
-
-  .contact-right form > div {
-    flex-direction: column;
-  }
-  .contact-right form div input[type="text"],
-  .contact-right form div input[type="email"],
-  .contact-right form div select {
-    width: 100%;
-  }
-}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- desketop menus -->
+<header>
+
+        
+        
+ <div class="hamburger">
+<i class="fa-solid fa-bars" data-visible="true"></i>
+<i class="fa-solid fa-close" data-visible="false"></i>
+</div>
+
+ <nav  class="container menu">
+ <div class="logo">
+ <img src="https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/klassy-logo.png" alt="">
+
+</div>
+       
+            <ul  class="desketop-menu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#chefs">chefs</a></li>
+                <li class="nav-item dropdown">
+                <a href="#" class="nav-link">Features ▾</a>
+
+      
+
+                <ul class="dropdown-menu">
+                <li><a href="#">Features Page 1</a></li>
+                <li><a href="#">Features Page 2</a></li>
+                <li><a href="#">Features Page 3</a></li>
+                <li><a href="#">Features Page 4</a></li>
+                 </ul>
+                    </li>
+                <li><a href="#contect-us">contect-Us</a></li>
+                </ul>
+                  </nav>
+
+                   <nav class="mobile-menu" data-visible="false">
+            
+            <div class="navigation"> 
+                
+               <ul  class="menus-link">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#chefs">chefs</a></li>
+                <li class="nav-item dropdown">
+                <a href="#" class="nav-link">Features ▾</a>
+
+      
+
+                <ul class="dropdown-menu">
+                <li><a href="#">Features Page 1</a></li>
+                <li><a href="#">Features Page 2</a></li>
+<li><a href="#">Features Page 3</a></li>
+<li><a href="#">Features Page 4</a></li>
+</ul>
+ </li>
+<li><a href="#contect-us">contect-Us</a></li>
+</ul>
+</nav>
+
+</header>
+
+        <section class="hero" id="home"></section>
+
+<div class="container-fluid">
+ <div class="row">
+        <!-- left img -->
+<div class="left-contect">
+            
+ <h4 style="font-family: Dancing Script; font-size: 54px; line-height: 64px; color: white;">KlassyCafe</em>
+ </h4>
+ <h6 class="title-six">THE BEST EXPERIENCE</h6>
+            
+<button class="btn-left"><a href="#reservation">Make A Reservation</a></button>
+</div>
+
+
+        <!-- rigth img -->
+
+  <div class="slider-containers">
+
+<div class="img-fill">
+         
+                <div class="cards">
+                <img src="https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/slide-03.jpg" alt="">>
+                </div>
+
+                 <div class="cards">
+                <img src="https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/slide-01.jpg" alt="">
+                </div>
+                 <div class="cards">
+                <img src="https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/slide-02.jpg	" alt="">
+                </div>
+                              
+ <button class="NextArrow slick-arrow" style="display: block;"></button>
+<div class="slider-arrow left">
+ &#10094;
+  </div>
+
+ <div class="slider-arrow right">
+ &#10095;
+</div>
+                </div>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <button class="NextArrow slick-arrow" style="display: block;"></button>
+<div class="slider-arrow left">
+ &#10094;
+  </div>
+
+ <div class="slider-arrow right">
+ &#10095;
+</div>
+         
+</div> 
+</div>
+
+</section>
+
+
+ <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const icons = document.querySelectorAll("i");
+
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobileMenu.getAttribute('data-visible');
+            if (isVisible == "true") {
+                // qari hiding
+                mobileMenu.setAttribute('data-visible', "false");
+                icons[0].setAttribute('data-visible', "true");
+                icons[1].setAttribute('data-visible', "false");
+             } else if (isVisible == "false") {
+                // soo bandhig showing
+                mobileMenu.setAttribute('data-visible', "true");
+                icons[0].setAttribute('data-visible', "false");
+                icons[1].setAttribute('data-visible', "true");
+            }
+        });
+
+
+    </script>
+    
+</body>
+</html>

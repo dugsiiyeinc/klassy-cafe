@@ -123,8 +123,11 @@ align-items: center;
   margin: 5px 0px 0px;
   color: #fff;
 }
-
- .row{
+.about-us{
+     width: 989px;
+    height: 522px;
+}
+  .row{
     display: grid;
        grid-template-columns: repeat(2,1fr);
 }
@@ -156,14 +159,18 @@ align-items: center;
     margin-top: 1rem;
     color: #fd211b;
     text-align: center;
-    
+    width: 220px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-left a{
      width: 180px;
     height: 43px;
   text-decoration: none;
   font-size: 13px;
-  padding: 12px 25px;
+  /* padding: 12px 25px; */
   color: #fb5849;
   display: flex;
   align-items: center;
@@ -200,8 +207,6 @@ align-items: center;
 .slick-arrow{
     display: block;
 }
-
-
 .img-fill{
     
 width: 280px;

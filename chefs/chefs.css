@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: min( 90% , 1200px);
+    margin-inline: auto;
+}
+.our-chefs{
+    padding-top: 120px;
+}
+.chefs-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chefs-content .chef-info{
+    width: 380px;
+    height: 188px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.chef-info h6{
+    font-weight: 500;
+    color: #fb5849;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.chef-info h2{
+    width: 350px;
+    color: #2a2a2a;
+    font-size: 30px;
+    margin-block: 20px 25px;
+}
+
+.chefs-item{
+    display: flex;
+
+}
+
+.chefs-item .chef-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.chef-thumb img {
+  width: 100%;
+  display: block;
+}
+
+.chef-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(42, 42, 42, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.chef-item:hover .chef-overlay {
+  opacity: 1;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.social-icons li a:hover {
+  background-color: #fb5849;
+  color: #fff;
+}
+
+.chefs-item .chef-item{
+    padding: 5px ;
+    border: 1px solid #2a2a2a34;
+    margin-inline: 15px;
+}
+.chefs-item .chef-item:hover{
+    border-color: #fb5849;
+}
+.chefs-item .chef-item .chef-item-info{
+    padding-block: 20px; 
+    color: #2a2a2a;
+}
+.chef-item .chef-item-info h4{
+    font-size: 20px;
+}
+.chef-item .chef-item-info h4:hover{
+    color: #fb5849;
+}
+.chef-item .chef-item-info span{
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    /* chefs responsive */
+    .chefs-item{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

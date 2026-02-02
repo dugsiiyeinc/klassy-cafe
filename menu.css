@@ -77,15 +77,22 @@ img{
             width: 290px;
             height: 18px;
              text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+               justify-content: end;
              
              
         }
 
 .descript{
-            width: 290px;
+            width: 490px;
             height: 120px;
             font-size: 30px;
-            margin: 20px 0px 25px;
+            margin: 20px 20px 25px !important;
+            padding-left: 80px;
+        
+            display: flex;
+            justify-content:end;
         }
 .slider-container img{
 height: 100%;
@@ -123,6 +130,8 @@ width: 100%;}
             flex-shrink: 0;
             overflow: hidden;
             border-radius: 10px;
+               background-color: #fffafa;
+        
         }
 
         .card img {
@@ -133,11 +142,11 @@ width: 100%;}
 
         .price-tag {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 0px;
+            left:0px;
             background-color: #ff5757;
             color: white;
-            padding: 5px 12px;
+            padding:20px 12px;
             font-weight: bold;
             border-radius: 4px;
             z-index: 5;
@@ -166,12 +175,17 @@ width: 100%;}
 
         .overlay h3 {
             margin: 0 0 5px 0;
-            font-size: 1.1rem;
+            font-size: 14px;
+        }
+        .overlay a {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            text-decoration: none;
         }
 
         .overlay p {
-            font-size: 0.85rem;
-            margin: 0;
+            font-size: 0.65rem;
+            margin-bottom:20px;
         }
 
         /* Animation-ka socodka */

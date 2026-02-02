@@ -29,3 +29,9 @@ footer p{
     font-weight: 400;
     align-items: flex-end;
 }
+@media (max-width: 768px) {
+    .footer-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

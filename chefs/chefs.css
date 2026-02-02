@@ -27,6 +27,7 @@
     font-family: "Poppins", sans-serif;
 }
 .chef-info h6{
+    font-weight: 500;
     color: #fb5849;
     font-size: 15px;
     text-transform: uppercase;
@@ -113,6 +114,10 @@
 .chef-item .chef-item-info span{
     font-size: 14px;
 }
-
-
-
+@media (max-width: 768px) {
+    /* chefs responsive */
+    .chefs-item{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

@@ -81,7 +81,7 @@
                     <h6 class="price">$4.10</h6>
                 </div>
                 <!-- lunch offers -->
-                 <div class="meal-box" data-meal="lunch">
+                <div class="meal-box" data-meal="lunch">
                     <img src="../images/tab-item-03.png" alt="">
                     <div class="box-info">
                         <h4>Fruit Salad</h4>
@@ -154,7 +154,7 @@
                     </div>
                     <h6 class="price">$5.00</h6>
                 </div>
-                 <div class="meal-box" data-meal="dinner">
+                <div class="meal-box" data-meal="dinner">
                     <img src="../images/tab-item-01.png" alt="">
                     <div class="box-info">
                         <h4>Fresh Chicken Salad</h4>
@@ -183,6 +183,7 @@
 
     </section>
     <script>
+        // meal offers js 
         const icons = document.querySelectorAll(".icon-box");
         const meals = document.querySelectorAll(".meal-box");
 
@@ -194,7 +195,9 @@
         });
 
         icons.forEach(icon => {
-            icon.addEventListener("click", () => {
+            icon.addEventListener("click", (e) => {
+                e.preventDefault(); // jooji page-ka inuu kor boodo
+
                 icons.forEach(i => i.classList.remove("active"));
                 icon.classList.add("active");
 
@@ -208,7 +211,6 @@
                 });
             });
         });
-
     </script>
 </body>
 

@@ -551,9 +551,442 @@ header {
 }
 
 
+/* chefs css */
+.our-chefs{
+    padding-top: 120px;
+}
+.chefs-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.chefs-content .chef-info{
+    width: 380px;
+    height: 188px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.chef-info h6{
+    color: #fb5849;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.chef-info h2{
+    width: 350px;
+    color: #2a2a2a;
+    font-size: 30px;
+    margin-block: 20px 25px;
+}
+.chefs-item{
+    display: flex;
+
+}
+/* tbo */
+.chef-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.chef-thumb img {
+  width: 100%;
+  display: block;
+}
+
+/* Overlay */
+.chef-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(42, 42, 42, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.chef-item:hover .chef-overlay {
+  opacity: 1;
+}
+
+/* Social icons */
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.social-icons li a:hover {
+  background-color: #fb5849;
+  color: #fff;
+}
+
+/* end */
+.chefs-item .chef-item{
+    padding: 5px ;
+    border: 1px solid #2a2a2a34;
+    margin-inline: 15px;
+}
+.chefs-item .chef-item:hover{
+    border-color: #fb5849;
+}
+.chefs-item .chef-item .chef-item-info{
+    padding-block: 20px; 
+    color: #2a2a2a;
+}
+.chef-item .chef-item-info h4{
+    font-size: 20px;
+}
+.chef-item .chef-item-info h4:hover{
+    color: #fb5849;
+}
+.chef-item .chef-item-info span{
+    font-size: 14px;
+}
+
+/* contact css */
+.contact-us{
+        margin-top: 120px ;
+        padding-block: 120px;
+        background: url("../images/reservation-bg.jpg") no-repeat center/cover;
+    }
+    .contact-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left, .contact-right{
+        flex: 1;
+        padding: 0 15px;
+    }
+    .contact-left h6{
+        position:relative; ;
+        padding-left: 40px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .contact-left h6::before{
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #ffffff;
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .contact-left h2{
+        width: 450px;
+        color: #fff;
+        font-size: 30px;
+        margin-block: 20px 25px;
+    }
+    .contact-left p{
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 65px;
+    }
+    .contact-left-mess{
+        display: flex;
+        /* gap: 50px; */
+        align-items: center;
+    }
+    .contact-left-mess .message{
+        background-color: #fff;
+        margin-inline: 15px;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 255px;
+        height: 160px;
+        border-radius: 5px;
+    }
+    .message .icon{
+        width: 70px;
+        height: 70px;
+        background-color: #fb5849;
+        margin: auto;
+        margin-top: -35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 24px;
+        color: #fff;
+    }
+    .message h4{
+        font-size: 20px;
+        margin-block: 15px 10px;
+        color: #212529;
+    }
+    .message a{
+        text-decoration: none;
+        color: #2a2a2a;
+        font-size: 14px;
+    }
+    .contact-right{
+        background-color: #ffffff;
+        padding: 45px 30px;
+        margin-left: 30px; 
+        border-radius: 8px;
+    }
+    .contact-right h4{
+        font-size:30px;
+        margin-bottom: 30px;
+        color: #2a2a2a;
+        text-align: center;
+        padding-inline: 15px;
+    }
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-right form > div {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-right input,
+.contact-right select,
+.contact-right textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-right textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-right button {
+    background-color: #fb5849;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.contact-right button:hover {
+    background-color: #e04b3d;
+}
+
+/* meal offers css */
+
+.meal-container {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.meal-info {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.meal-info h6 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fb5849;
+  font-weight: 500;
+}
+.meal-info h2 {
+  margin-block: 20px 25px;
+  color: #2a2a2a;
+  font-size: 30px;
+  font-weight: 900;
+}
+.meal-icons {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+.meal-icons .icon-box {
+  margin: 0 15px;
+}
+.icon-box img {
+  margin-bottom: 15px;
+}
+.icon-box a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: 600;
+  font-size: 14px;
+}
+.icon-box a:hover {
+  color: #fb5849;
+}
+.meal-content {
+      max-width: 900px;
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+
+.meal-box {
+  display: none;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-inline: 15px;
+  justify-content: space-between;
+}
+.meal-box.show {
+      display: flex;
+    }
+.meal-box img {
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.box-info h4 {
+  font-size: 20px;
+  color: #2a2a2a;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.box-info p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+.meal-box .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #fb5849;
+  font-weight: 700;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+/* footer css */
+footer{
+    background-color: #fb5849;
+    padding: 50px 0;
+    margin-top: 60px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fb5849;
+    background-color: #ffffff;
+    padding: 10px ;
+    border-radius: 50%;
+}
+footer p{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    align-items: flex-end;
+}
+@media (max-width: 768px) {
+    /* chefs responsive */
+    .chefs-item{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    /* contact section responsive */
+    .contact-us{
+        width: 100%;
+     }
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+        /* width: 100%; */
+    }
+    .contact-left{
+        padding-inline: 0;
+    }
+    .contact-left h2 {
+        width: 100%;
+    }
+
+    .contact-left-mess {
+        flex-direction: column;
+        gap: 40px;
+    }
+ .contact-left-mess .message{
+        margin-inline: 0;
+        width: 100%;
+        margin-bottom: 30px;
+ }
+ 
+    .contact-right{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact-right form > div {
+        flex-direction: column;
+    }
+ 
+    /*  meal offers responsive */
+    .meal-container {
+        padding-top: 80px;
+    }
+    .meal-info {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .meal-content {
+        grid-template-columns: 1fr;
+    }
+    /* footer */
+    .footer-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+
+}
+
+
 
 /* qaynitiii responsive ka */
-
 @media (max-width:480px) {
     /* MOBILE MENU & HAMBURGER */
 

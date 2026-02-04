@@ -1,0 +1,700 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.hamburger{
+    display: none;
+}
+ .container{
+      width: min(90% 1150px);
+    margin-inline: auto;
+ }
+.menu-rest{
+            display: flex;
+            flex-direction: column;
+            
+            width: 99vw;
+            height: 100vh;
+             background-color: #fffafa;
+             position: relative;
+           
+
+                        
+        }
+
+        
+.slider-arrows {
+  position: absolute;
+  margin-bottom: 10px;
+  /* bottom: 0; */
+  transform: translateY(-50%);
+  /* background: #e74c3c; */
+  color:#d24b4b;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  
+  
+}
+.slider-arrows.rights {
+  left: 50%;
+  bottom: 0;
+  
+  
+}
+.slider-arrows.lefts {
+  right: 50%;
+  bottom: 0;
+}
+.slider-arrows:hover {
+  background: #c0392b;
+}
+.slick-arrows{
+    display: block;
+}
+        
+        
+
+.menu-rest h6{
+  font-size: 15px;
+             padding: 0px 0px 0px 40px;
+             color: #d24b4b;
+            width: 290px;
+            height: 18px;
+             text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+               justify-content: end;
+             
+             
+        }
+
+.descript{
+            width: 490px;
+            height: 120px;
+            font-size: 30px;
+            margin: 20px 20px 25px !important;
+            padding-left: 80px;
+        
+            display: flex;
+            justify-content:end;
+        }
+.slider-container img{
+height: 100%;
+width: 100%;}  
+
+        /* Weelka weyn ee slider-ka */
+        .slider-container {
+            width: 100%;
+            overflow: hidden;
+        
+            padding: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+              background-color: #fffafa;
+        }
+
+        /* Safka kaararka ee soconaya */
+        .slider-track {
+            display: flex;
+            width: calc(300px * 10); /* Cabirka kaarka x tirada kaararka */
+            animation: scroll 20s linear infinite;
+              background-color: #fffafa;
+        }
+
+        /* Marka Mouse-ka la dul dhigo, slider-ku wuu istaagayaa */
+        .slider-track:hover {
+            animation-play-state: paused;
+        }
+
+        /* Qaabka kaarka */
+        .card {
+            position: relative;
+            width: 280px;
+            height: 380px;
+            margin: 0 10px;
+            flex-shrink: 0;
+            overflow: hidden;
+            border-radius: 10px;
+               background-color: #fffafa;
+        
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .price-tag {
+            position: absolute;
+            top: 0px;
+            left:0px;
+            background-color: #ff5757;
+            color: white;
+            padding:20px 12px;
+            font-weight: bold;
+            border-radius: 4px;
+            z-index: 5;
+        }
+
+        /* Overlay-ga (Kaliya bar ayuu daboolayaa) */
+        .overlay {
+            position: absolute;
+            bottom: -50%;
+            left: 0;
+            width: 100%;
+            height: 45%;
+            background-color: rgba(255, 87, 87, 0.95);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: bottom 0.4s ease-in-out;
+        }
+
+        .card:hover .overlay {
+            bottom: 0;
+        }
+
+        .overlay h3 {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+        }
+        .overlay a {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .overlay p {
+            font-size: 0.65rem;
+            margin-bottom:20px;
+        }
+
+        /* Animation-ka socodka */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-300px * 5)); } /* Kala badh tirada kaararka */
+        }
+        @media  (min-width:480px) and  (max-width:1030px ){
+
+            
+        .menu-rest{
+            display: flex;
+            flex-direction: column;
+            
+            width: 99vw;
+            height: 70vh;
+             background-color: #fffafa;
+             position: relative;
+           
+
+                        
+        }
+
+        
+                .slider-arrows {
+  position: absolute;
+  margin-bottom: 10px;
+  /* bottom: 0; */
+  transform: translateY(-50%);
+  /* background: #e74c3c; */
+  color:#d24b4b;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  
+  
+}.slider-arrows.rights {
+  left: 50%;
+  bottom: 13%;
+  
+  
+}
+
+.slider-arrows.lefts {
+  right: 50%;
+  bottom: 13%;
+}
+
+.slider-arrows:hover {
+  background: #c0392b;
+}
+.slick-arrows{
+    display: block;
+}
+        .slider-container img{
+            height: 100%;
+            width: 100%;
+        }
+        Weelka weyn ee slider-ka
+        .slider-container {
+            /* width: 10%; */
+            overflow: hidden;
+            background: white;
+            /* padding: 20px 0; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+             width: 99vw;
+             /* background-color: blue; */
+             margin-top: 3rem;
+             
+             background-color: #fffafa;
+             display: flex;
+             gap: 0;
+             justify-content: flex-start;
+        }
+          /* Safka kaararka ee soconaya */
+        
+
+            .slider-tracks {
+  display: flex;
+  width: max-content;
+  animation: walk 38s infinite;
+}
+
+@keyframes walk {
+  /* socod */
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-10%); }
+
+  /* hakad */
+  25%  { transform: translateX(-10%); }
+
+  /* socod kale */
+  45%  { transform: translateX(-25%); }
+
+  /* hakad */
+  50%  { transform: translateX(-25%); }
+
+  /* socod */
+  70%  { transform: translateX(-40%); }
+
+  /* hakad */
+  75%  { transform: translateX(-40%); }
+
+  /* dhammaad */
+  100% { transform: translateX(-50%); }
+}
+/* Marka Mouse-ka la dul dhigo, slider-ku wuu istaagayaa */
+        .slider-track:hover {
+            animation-play-state: paused;
+        }
+
+        /* Qaabka kaarka */
+        .card {
+            position: relative;
+            width: 280px;
+            height: 30vh;
+            margin: 0 10px;
+            flex-shrink: 0;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+         
+        
+        .price-tag {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #ff5757;
+            color: white;
+            padding: 20px 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            z-index: 5;
+            font-size: 2rem;
+        }
+
+         /* Overlay-ga (Kaliya bar ayuu daboolayaa) */
+        .overlay {
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            width: 100%;
+            height: 45%;
+            background-color: rgba(255, 87, 87, 0.95);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: bottom 0.4s ease-in-out;
+            font-size: 2rem;
+        }
+
+
+          .card:hover .overlay {
+            bottom: 0;
+           
+        }
+         /* Overlay-ga (Kaliya bar ayuu daboolayaa) */
+        .overlay {
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            width: 100%;
+            height: 45%;
+            background-color: rgba(255, 87, 87, 0.95);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: bottom 0.4s ease-in-out;
+            font-size: 2rem;
+        }
+
+
+          .card:hover .overlay {
+            bottom: 0;
+           
+        }
+
+
+        }
+           @media (min-width:481px) and (max-width:1023px) {
+            
+        .menu-rest{
+            display: flex;
+            flex-direction: column;
+            
+            width: 99vw;
+            height: 70vh;
+             background-color: #fffafa;
+             position: relative;
+           
+
+                        
+        }
+        
+
+        
+                .slider-arrows {
+  position: absolute;
+  margin-bottom: 10px;
+  /* bottom: 0; */
+  transform: translateY(-50%);
+  /* background: #e74c3c; */
+  color:#d24b4b;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  
+  
+}
+
+.slider-arrows.rights {
+  left: 50%;
+  bottom: -3%;
+  
+  
+}
+
+.slider-arrows.lefts {
+  right: 50%;
+  bottom: -3%;
+}
+
+.slider-arrows:hover {
+  background: #c0392b;
+}
+.slick-arrows{
+    display: block;
+}
+        .slider-container img{
+            height: 100%;
+            width: 100%;
+        }
+        Weelka weyn ee slider-ka
+        .slider-containers {
+            /* width: 10%; */
+            overflow: hidden;
+            background: white;
+            /* padding: 20px 0; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+             width: 99vw;
+             /* background-color: blue; */
+             margin-top: 3rem;
+             
+             background-color: #fffafa;
+             display: flex;
+             gap: 0;
+             justify-content: flex-start;
+        }
+
+        /* Safka kaararka ee soconaya */
+        
+
+            .slider-tracks {
+  display: flex;
+  width: max-content;
+  animation: walk 38s infinite;
+}
+
+@keyframes walk {
+  /* socod */
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-10%); }
+
+  /* hakad */
+  25%  { transform: translateX(-10%); }
+
+  /* socod kale */
+  45%  { transform: translateX(-25%); }
+
+  /* hakad */
+  50%  { transform: translateX(-25%); }
+
+  /* socod */
+  70%  { transform: translateX(-40%); }
+
+  /* hakad */
+  75%  { transform: translateX(-40%); }
+
+  /* dhammaad */
+  100% { transform: translateX(-50%); }
+}
+
+
+         /* Marka Mouse-ka la dul dhigo, slider-ku wuu istaagayaa */
+        .slider-track:hover {
+            animation-play-state: paused;
+        }
+
+        /* Qaabka kaarka */
+        .card {
+            position: relative;
+            width: 370px;
+            height: 39vh;
+            margin: 0 10px;
+            flex-shrink: 0;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .price-tag {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #ff5757;
+            color: white;
+            padding: 20px 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            z-index: 5;
+            font-size: 2rem;
+        }
+
+        /* Overlay-ga (Kaliya bar ayuu daboolayaa) */
+        .overlay {
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            width: 100%;
+            height: 45%;
+            background-color: rgba(255, 87, 87, 0.95);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: bottom 0.4s ease-in-out;
+            font-size: 2rem;
+        }
+
+
+          .card:hover .overlay {
+            bottom: 0;
+           
+        }
+ /* Overlay-ga (Kaliya bar ayuu daboolayaa) */
+        .overlay {
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            width: 100%;
+            height: 45%;
+            background-color: rgba(255, 87, 87, 0.95);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: bottom 0.4s ease-in-out;
+            font-size: 2rem;
+        }
+
+
+          .card:hover .overlay {
+            bottom: 0;
+           
+        }
+           }
+
+
+           /* Mobile-only slider, full width, no extra space */
+@media (max-width: 768px) {
+
+
+    /* Container-ka guud ee slider-ka */
+.container-menu {
+  width: 100%;       
+  max-width: 100%;  
+  padding: 0;        
+  margin: 0;        
+  box-sizing: border-box; 
+  overflow: hidden;  
+}
+
+.menu-rest h6{
+  font-size: 15px;
+             padding: 0px 0px 0px 40px;
+             color: #d24b4b;
+            width: 290px;
+            height: 18px;
+             text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+             
+                justify-content: center;
+             
+             
+        }
+         .menu-rest h6{
+  font-size: 15px;
+             padding: 0px 0px 0px 40px;
+             color: #d24b4b;
+            width: 290px;
+            height: 18px;
+             text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+             
+                justify-content: center;
+             
+             
+        }
+
+.descript{
+            width: 350px;
+            height: 120px;
+            font-size: 30px;
+            margin: 20px 20px 25px !important;
+            padding-left: 30px;
+        
+            display: flex;
+            justify-content:end;
+           
+        }
+.slider-container img{
+height: 100%;
+width: 100%;}  
+
+  .mobile-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-slider::-webkit-scrollbar {
+    display: none; /* hide scrollbar */
+  }
+
+  .mobile-slider .card {
+    flex: 0 0 100%; /* take full viewport width */
+    scroll-snap-align: start;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 0; /* no extra space */
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+  }
+
+  .overlay {
+    padding: 10px;
+  }
+
+  .overlay h3 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .overlay p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .overlay a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #fff;
+    background: #ff6b6b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+
+          
+
+        
+               
+
+
+           

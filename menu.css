@@ -577,6 +577,120 @@ width: 100%;}
         }
            }
 
+
+           /* Mobile-only slider, full width, no extra space */
+@media (max-width: 768px) {
+
+
+    /* Container-ka guud ee slider-ka */
+.container-menu {
+  width: 100%;       
+  max-width: 100%;  
+  padding: 0;        
+  margin: 0;        
+  box-sizing: border-box; 
+  overflow: hidden;  
+}
+
+.menu-rest h6{
+  font-size: 15px;
+             padding: 0px 0px 0px 40px;
+             color: #d24b4b;
+            width: 290px;
+            height: 18px;
+             text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+             
+                justify-content: center;
+             
+             
+        }
+         .menu-rest h6{
+  font-size: 15px;
+             padding: 0px 0px 0px 40px;
+             color: #d24b4b;
+            width: 290px;
+            height: 18px;
+             text-transform: uppercase;
+               /* padding-left: 80px; */
+               display: flex;
+             
+                justify-content: center;
+             
+             
+        }
+
+.descript{
+            width: 400px;
+            height: 120px;
+            font-size: 30px;
+            margin: 20px 20px 25px !important;
+            padding-left: 30px;
+        
+            display: flex;
+            justify-content:end;
+           
+        }
+.slider-container img{
+height: 100%;
+width: 100%;}  
+
+  .mobile-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-slider::-webkit-scrollbar {
+    display: none; /* hide scrollbar */
+  }
+
+  .mobile-slider .card {
+    flex: 0 0 100%; /* take full viewport width */
+    scroll-snap-align: start;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 0; /* no extra space */
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+  }
+
+  .overlay {
+    padding: 10px;
+  }
+
+  .overlay h3 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .overlay p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .overlay a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #fff;
+    background: #ff6b6b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+
           
 
         

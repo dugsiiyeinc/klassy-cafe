@@ -1,17 +1,18 @@
-# ☕ Klassy Cafe Website
+```md
+#  Klassy Cafe Website
 
-Klassy Cafe is a modern and responsive restaurant website built using **HTML, CSS, and Vanilla JavaScript**.  
+Klassy Cafe is a modern and responsive restaurant website built using **HTML and CSS**.  
 This project focuses on clean UI design, responsive layout, and interactive user experience without using any frontend framework.
 
 ---
 
-## 🚀 Live Preview
+## Repository
 
-Open `index.html` in your browser to view the project.
+GitHub: https://github.com/dugsiiyeinc/klassy-cafe
 
 ---
 
-## 📌 Features
+##  Features
 
 - Responsive navigation (Desktop & Mobile)
 - Mobile hamburger menu
@@ -24,31 +25,63 @@ Open `index.html` in your browser to view the project.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
-- **HTML5** – Page structure
-- **CSS3** – Styling and responsive layout
-- **JavaScript (Vanilla JS)** – Interactivity and logic
+- **HTML** – Page structure
+- **CSS** – Styling and responsive layout
+- **JavaScript** – Interactivity and logic
 - **Font Awesome** – Icons
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+
+Each section of the website lives in its **own folder**:
 
 ```
 
-Klassy-Cafe/
+klassy-cafe/
 │
-├── index.html        # Main HTML file
-├── file.css          # Main CSS file
-├── images/           # Images and icons
-└── README.md         # Project documentation
+├── about/
+│   └── about.html
+│   └── about.css
+│
+├── chefs/
+│   └── chefs.html
+│   └── chefs.css
+│
+├── contact-us/
+│   └── contact.html
+│   └── contact.css
+│
+├── footer/
+│   └── footer.html
+|   └── footer.css
+│
+├── home/
+│   └── home.html
+│   └── home.css
+│
+├── meal-offers/
+│   └── meal.html
+│   └── meal.css
+│
+├── menu/
+│   ├── menu.html
+│   └── menu.css
+│
+├── images/
+│   └── (all project images)
+│
+├── index.html
+├── style.css
+├── README.md
 
 ````
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Navigation & Hamburger Menu
 - Desktop uses a normal navigation bar
@@ -84,7 +117,7 @@ CSS:
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 * Mobile-first approach
 * Media queries used for small screens
@@ -92,10 +125,17 @@ CSS:
 
 ---
 
-## ▶️ How To Run
+## How To Run
 
 1. Download or clone the project
 2. Open `index.html`
 3. View in any modern browser (Chrome recommended)
+
+---
+
+## 👥 Contributors
+
+* **@cabdraxmaanibnufaisal-alt**
+* **@hamda-Mohan**
 
 ---

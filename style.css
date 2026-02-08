@@ -15,6 +15,7 @@
 .container {
     width: min(90%, 1150px);
     margin-inline: auto;
+    background-color: green;
 }
 
 header {
@@ -28,6 +29,7 @@ header {
     align-items: center;
     gap: 2rem;
     z-index: 11111;
+    width: 99vw;
 }
 
 .menu {
@@ -35,6 +37,7 @@ header {
     align-items: center;
     gap: 15rem;
     padding: 2rem;
+    
 }
 
 .desketop-menu {
@@ -167,7 +170,7 @@ header {
 /* SLIDER */
 .slider-containers {
     overflow: hidden;
-    width: 65vw;
+    width: 64vw;
     height: 80vh;
     display: flex;
     gap: 0;
@@ -236,16 +239,15 @@ header {
     height: 100vh;
 }
 
-.container-grid {
+.grid {
     display: flex;
     justify-content: center;
     height: 90vh;
 
-    width: 99vw;
+    
     align-items: center;
     margin-inline: auto;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-top: 120px;
 }
 
 .main {
@@ -360,7 +362,11 @@ header {
 
 
 
-
+.container-menu{
+    width: 99vw;
+   
+   
+}
 .menu-rest {
     display: flex;
     flex-direction: column;
@@ -369,6 +375,8 @@ header {
     height: 100vh;
     background-color: #fffafa;
     position: relative;
+    
+    
 
 
 
@@ -450,7 +458,7 @@ header {
 
 /* Weelka weyn ee slider-ka */
 .slider-container {
-    width: 100%;
+    width: 99vw;
     overflow: hidden;
 
     padding: 20px 0;
@@ -1341,7 +1349,7 @@ footer p{
     }
 
 
-    .container-grid {
+    .grid {
         display: flex;
         justify-content: center;
         height: 99vh;
@@ -1679,7 +1687,7 @@ footer p{
 
 
 
-    .container-grid {
+    .grid {
         display: flex;
         justify-content: center;
         height: 55vh;
@@ -1691,8 +1699,8 @@ footer p{
         margin-bottom: 7rem;
         margin-top: 120px;
 
-
-
+        padding: 2rem;
+       
     }
 
     .main {
@@ -2141,7 +2149,7 @@ footer p{
 
 
 
-    .container-grid {
+    .grid {
         display: flex;
         justify-content: center;
         height: 55vh;
@@ -2151,23 +2159,27 @@ footer p{
         margin-top: 3rem;
 
 
-        flex-wrap: wrap;
+        
     }
 
     .main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        height: 100%;
+        width: 115vw;
+        height: 55vh;
         gap: 2rem;
         flex-wrap: wrap;
+      
 
     }
+     .main img{
+        width: 100%;
+     }
 
     .blog {
         display: flex;
         flex-direction: column;
-        width: 53vw !important;
+        width: 47vw !important;
         height: 80%;
         /* padding: 1rem; */
         top: 60%;
